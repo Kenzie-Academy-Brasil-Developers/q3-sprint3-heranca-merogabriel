@@ -1,41 +1,40 @@
-# if __name__ == "__main__":
-#     # Execute suas testagens manuais aqui
-#     ...
-
-
 from classes import Recipente, Copo
 
-# r = Recipente(100)
 
-# print(r)
+if __name__ == "__main__":
+    # Execute suas testagens manuais aqui
+    
+    r = Recipente(100)
 
-# print(r.esta_limpo())
+    print(r)
 
-# print(r.estado())
+    print(r.esta_limpo())
 
-# print(r.sujar())
+    print(r.estado())
 
-# print(r.esta_limpo())
+    print(r.sujar())
 
-# print(r.lavar())
+    print(r.esta_limpo())
 
-# print(r.esta_limpo())
+    print(r.lavar())
 
-c = Copo(300.0)
+    print(r.esta_limpo())
 
-# print(c)
+    c = Copo(300.0)
 
-# c.encher('cafe')
-# print(c.bebida)
+    print(c)
 
-# print(c)
+    c.encher('cafe')
+    print(c.bebida)
 
-# c.beber(30)
+    print(c)
 
-# print(c)
+    c.beber(30)
 
-# c.lavar()
+    print(c)
 
-# print(c.esta_limpo())
+    c.lavar()
 
-print(c.tamanho)
+    print(c.esta_limpo())
+
+    print(c.tamanho)
