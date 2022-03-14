@@ -1,6 +1,6 @@
 # Desenvolva sua classe Recipiente aqui.
 
-class Recipente:
+class Recipiente:
 
     def __init__(self, tamanho: float):
         if tamanho < 0:
