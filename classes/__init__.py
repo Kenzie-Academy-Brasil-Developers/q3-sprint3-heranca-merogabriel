@@ -1,2 +1,2 @@
-from .recipiente import Recipente
+from .recipiente import Recipiente
 from .copo import Copo
