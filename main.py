@@ -1,40 +1,9 @@
-from classes import Recipiente, Copo
+from classes.copo import Copo
+from classes.recipiente import Recipiente
 
 
 if __name__ == "__main__":
-    # Execute suas testagens manuais aqui
-    
-    r = Recipiente(100)
+    copo_comum = Copo(300)
+    copo_comum.encher('cafe')
 
-    print(r)
-
-    print(r.esta_limpo())
-
-    print(r.estado())
-
-    print(r.sujar())
-
-    print(r.esta_limpo())
-
-    print(r.lavar())
-
-    print(r.esta_limpo())
-
-    c = Copo(300.0)
-
-    print(c)
-
-    c.encher('cafe')
-    print(c.bebida)
-
-    print(c)
-
-    c.beber(30)
-
-    print(c)
-
-    c.lavar()
-
-    print(c.esta_limpo())
-
-    print(c.tamanho)
+    print(copo_comum.__repr__())
